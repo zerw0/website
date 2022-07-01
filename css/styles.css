@@ -6,12 +6,17 @@
 
 h1 {
 	text-align: center;
-	color: #f1fa8c;
+	color: #ff79c6;
 }
 
 h3 {
 	text-align: center;
-	color: #f1fa8c;
+	color: #ff79c6;
+}
+
+h4 {
+	text-align: center;
+	color: #ff79c6;
 }
 
 p {
