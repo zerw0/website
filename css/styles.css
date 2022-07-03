@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 * {
-	font-family: 'JetBrains Mono'
+	font-family: 'JetBrains Mono';
+	text-align: center;
 }
 
 h1 {
@@ -41,4 +42,8 @@ a {
 
 a:hover {
 	color: #f1fa8c;
+}
+
+code {
+	color: #ff79c6;
 }
