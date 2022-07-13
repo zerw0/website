@@ -58,20 +58,11 @@
 
   <div class="container lastfm">
     <h3>The song I last listened to</h3>
-    <div class="lastfm-inner">
-      <p><span id="song">Loading</span></p>
+    <div id="song">
+        Loading
+      <script src="index.js"></script>
+      </div>
     </div>
-    <script type="c619d0eab5b22beb3661d6b5-text/javascript">
-          let user = 'walkxnl';
-          let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
-          let song = document.querySelector('#song');
-          fetch(url)
-            .then(function (response) {
-              return response.json()
-            }).then(function (json) {
-              song.innerHTML = '<img src="' + json['track']['image']['1']['#text'] + '" alt="LastFM last played">' + json['track']['name'] + ' - ' + json['track']['artist']['#text'];
-            });
-        </script>
   </div>
 
   <h3>buttons/banners🖼️</h3>

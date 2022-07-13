@@ -54,3 +54,28 @@ code {
 	color: #f1fa8c;
 
 }
+
+.songtext {
+	display: inline-flex;
+	align-items: flex-start;
+	align-content: center;
+	line-height: 1;
+	flex-direction: column;
+}
+.songtext .trackname {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+#song {
+	display: inline-flex;
+	padding: 1.5em;
+	border-radius: 10px;
+	color: #f1fa8c;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.3);
+}
+#song span {
+	padding-left: 0.7em;
+}
