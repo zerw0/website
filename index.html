@@ -43,5 +43,24 @@
          <div id="banners">
             <img src="pix/piracy.gif"> <img src="pix/Bestviewedwithbox.gif"> <img src="pix/bigfag.gif"> <img src="pix/discord.gif"> <img src="pix/ezgif.com-gif-maker_5.gif"> <a href="https://cobradile.neocities.org/" target="_blank"><img src="https://cobradile.neocities.org/images/buttons/mabutton.png"></a> <img src="pix/35mm.gif"> <img src="pix/seedyourtorrents.gif"> <img src="pix/32.gif">
          </div>
+
+         <div class="container lsatfm">
+        <h3>the last thing i listened to</h3>
+        <div class="lastfm-inner">
+        <p><span id="song">Loading</span></p>
+        </div>
+        <script type="e6ff289cb29d59d0f2218f46-text/javascript">
+          let user = 'zerwxd';
+          let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+          let song = document.querySelector('#song');
+          fetch(url)
+            .then(function (response) {
+              return response.json()
+            }).then(function (json) {
+              song.innerHTML = '<img src="' + json['track']['image']['1']['#text'] + '" alt="LastFM last played">' + json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+            });
+        </script>
+        </div>
+        </div>
     </body>
 </html>
