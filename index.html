@@ -13,7 +13,7 @@
   <meta name="og:title" property="og:title" content="hd's garbage can">
   <meta property="og:description" content="random kid on the interwebs">
   <meta name="twitter:description" property="twitter:description" content="random kid on the interwebs">
-  
+
   <meta property="og:url" content="zerw.xyz">
   <meta property="og:type" content="website">
 
@@ -23,12 +23,29 @@
   <title>hd's garbage can</title>
   <link rel="stylesheet" href="css/styles.css">
   <meta charset="UTF-8">
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="pix/mf.jpg" />
 </head>
 
 <body>
+
+  <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+  <script>
+    (function (f, a, t, h, o, m) {
+      a[h] = a[h] || function () {
+        (a[h].q = a[h].q || []).push(arguments)
+      };
+      o = f.createElement('script'),
+        m = f.getElementsByTagName('script')[0];
+      o.async = 1; o.src = t; o.id = 'fathom-script';
+      m.parentNode.insertBefore(o, m)
+    })(document, window, '//zerw.xyz/tracker.js', 'fathom');
+    fathom('set', 'siteId', 'QORYK');
+    fathom('trackPageview');
+  </script>
+  <!-- / Fathom -->
+
   <h1>hd's garbage can</h1>
   <h3>sup, i'm hristo 👋</h3>
   <code>he/they</code>
@@ -45,7 +62,7 @@
     <a href="0xAD39D182.asc">pgp</a><br>
     <a href="http://zerw.123Guestbook.com/" target="_self">guestbook for my site</a><br>
     <a href="https://status.zerw.xyz">status</a>
-</div>
+  </div>
   <h3>current tech 🔌</h3>
   <p>
     💻: hp elitebook 8560p<br>
@@ -77,10 +94,10 @@
   <div class="container lastfm">
     <h3>last song i listened to🎵</h3>
     <div id="song">
-        Loading
+      Loading
       <script src="index.js"></script>
-      </div>
     </div>
+  </div>
   </div>
 
   <h3>buttons/banners🖼️</h3>
