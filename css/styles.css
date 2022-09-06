@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+	font-family: 'JetBrains Mono';
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #ff79c6;
+}
+
+h3 {
+	text-align: center;
+	color: #ff79c6;
+}
+
+h4 {
+	text-align: center;
+	color: #ff79c6;
+}
+
+p {
+	text-align: center;
+	color: #f1fa8c;
+}
+
+body {
+	background-color: #282a36;
+}
+
+#links {
+	text-align: center;
+	font-size: 20px;
+}
+
+a {
+	transition: all 0.5s ease;
+	color: #50fa7b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f1fa8c;
+}
+
+code {
+	color: #ff79c6;
+}
+
+#webring {
+	text-align: center;
+	font-size 20px;
+	color: #f1fa8c;
+
+}
+
+.songtext {
+	display: inline-flex;
+	align-items: flex-start;
+	align-content: center;
+	line-height: 1;
+	flex-direction: column;
+}
+.songtext .trackname {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+#song {
+	display: inline-flex;
+	padding: 1.5em;
+	border-radius: 10px;
+	color: #f1fa8c;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.3);
+}
+#song span {
+	padding-left: 0.7em;
+}
