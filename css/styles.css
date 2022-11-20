@@ -79,3 +79,9 @@ code {
 #song span {
 	padding-left: 0.7em;
 }
+
+#banners {
+    position: relative;
+    bottom: -170px;
+    width: 100%;
+}
