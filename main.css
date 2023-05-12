@@ -1,0 +1,57 @@
+body {
+	background-color:	black;
+	color:			beige;
+	font-family:		monospace;
+	font-size:		11pt;
+	line-height:		1.25em;
+}
+
+a {
+	color:		beige;
+	text-decoration:none;
+}
+
+a:hover {
+	color:			black;
+	background-color:	beige;
+}
+
+a::before {
+	content:	'[ ';
+}
+
+a::after {
+	content:	' ]';
+}
+
+.c1 {
+	width:		90%;
+	max-width:	500px;
+	margin:		0 auto;
+}
+
+
+.songtext {
+	display: inline-flex;
+	align-items: flex-start;
+	align-content: center;
+	line-height: 1;
+	flex-direction: column;
+}
+.songtext .trackname {
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+#song {
+	display: inline-flex;
+	padding: 1.5em;
+	border-radius: 10px;
+	color: beige;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,0.3);
+}
+#song span {
+	padding-left: 0.7em;
+}
