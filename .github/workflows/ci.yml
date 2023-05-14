@@ -18,4 +18,4 @@ jobs:
 
 
       - name: Build the website
-        run: blog/bb.sh rebuild
+        run: EDITOR=nano blog/bb.sh rebuild
