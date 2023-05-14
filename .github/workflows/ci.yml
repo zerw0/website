@@ -19,3 +19,10 @@ jobs:
 
       - name: Build the website
         run: EDITOR=nano blog/bb.sh rebuild
+
+      - name: Deploy the website
+        run: >-
+          rsync -avx --delete -e 'ssh -p 8888' --exclude '.ssh' ./ $DEPLOY_USERNAME@$DEPLOY_SERVER:./
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
