@@ -145,6 +145,9 @@ alias fm="xplr"
 #    end
 #end
 
+# SSH
+alias s="kitty +kitten ssh"
+
 # Starship prompt
 starship init fish | source
 
