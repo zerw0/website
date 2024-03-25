@@ -1,0 +1,17 @@
+```csharp
+public class Car
+{
+public string brand;
+public string model;
+public int yearProd;
+}
+public class Program
+{
+static void main()
+{
+Car myCar=new Car();
+myCar.brand = "Opel";
+myCar.model = "Astra GSI";
+myCar.yearProd = 2010;
+Console.WriteLine(" My car is" + {0} +"," + {1} + "," + {2} + "година", myCar.brand, myCar.model, myCar.yearProd),
+```
